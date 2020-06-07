@@ -1,0 +1,99 @@
+/*
+*{
+    cursor: none;
+}
+*/
+/*
+#demo{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+
+
+#test{
+    position: absolute;
+}
+*/
+
+
+body
+{
+    font-family: 'sega ui light';
+}
+
+/* styling the container */
+.item
+{
+    position: relative;
+}
+
+/* styling the caption */
+.item-caption
+{
+    background-color: #fff;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* styling the container which carry the photo after click */
+.lightbox-container
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    display: none !important;
+}
+
+/* styling the container item */
+.lightbox-item
+{
+    width: 50%;
+    height: 500px;
+    background-image: url(../image2/backlit-crystal-ball-dawn-1252893.jpg);
+    background-size: 100% 100%;
+}
+
+/* class to show the lightbox-container on click the photo */
+.show
+{
+    display: flex !important;
+}
+
+/* styling close */
+#wClose
+{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#next, #prev, #wClose
+{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
